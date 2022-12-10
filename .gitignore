@@ -1,6 +1,5 @@
 # Private stuff not shared
 /dev_test
-.gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
