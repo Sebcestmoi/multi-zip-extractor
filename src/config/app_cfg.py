@@ -37,8 +37,8 @@ class Theme_psycho(Enum):
 
 class Theme_style(Enum):
     BG_COLOR = "#E803E8"
-    BT_COLOR = "#06E803"
-    FG_COLOR = "#06E803"
+    BT_COLOR = "#76F069"
+    FG_COLOR = "#76F069"
     TXT_BG_COLOR = "black"
     TXT_FG_COLOR = "white"
 
