@@ -1,5 +1,5 @@
 # Private stuff not shared
-/dev_test
+dev_test/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
