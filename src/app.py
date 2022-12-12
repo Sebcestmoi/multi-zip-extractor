@@ -7,7 +7,7 @@ from tkinter import EW, N, NSEW, NW, filedialog as fd
 from pathlib import Path
 
 from config.app_cfg import Theme_dark, Theme_wp, Theme_pink, Theme_grey, Theme_psycho, Theme_style, App_font
-from lib.file_manager import Files, process_list_of_path, unzip_file
+from library.file_manager import Files, process_list_of_path, unzip_file
 
 home = str(Path.home())
 
