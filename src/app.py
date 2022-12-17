@@ -6,7 +6,7 @@ from tkinter import *
 from tkinter import EW, N, NSEW, NW, filedialog as fd
 from pathlib import Path
 
-from config.app_cfg import Theme_dark, Theme_wp, Theme_pink, Theme_grey, Theme_psycho, Theme_style, App_font
+from config.app_cfg import Theme_dark, Theme_wp, Theme_pink, Theme_grey, Theme_psycho, Theme_style, App_font, Theme_dark_green
 from library.file_manager import Files, process_list_of_path, unzip_file
 
 home = str(Path.home())
@@ -66,9 +66,10 @@ class App:
         self.filemenu.add_command(label="White-purple", command=self.theme_wp)
         self.filemenu.add_command(label="Dark", command=self.theme_dark)
         self.filemenu.add_command(label="Pink", command=self.theme_pink)
+        self.filemenu.add_command(label="Green", command=self.theme_dark_green)
         self.filemenu.add_command(label="Grey", command=self.theme_grey)
-        self.filemenu.add_command(label="Psycho", command=self.theme_psycho)
-        self.filemenu.add_command(label="Style", command=self.theme_style)
+        self.filemenu.add_command(label="Ugly 1", command=self.theme_psycho)
+        self.filemenu.add_command(label="Ugly 2", command=self.theme_style)
 
         self.filemenu.add_separator()
 
@@ -218,6 +219,10 @@ class App:
 
     def theme_wp(self):
         self.Theme = Theme_wp
+        self.apply_theme()
+
+    def theme_dark_green(self):
+        self.Theme = Theme_dark_green
         self.apply_theme()
 
     def theme_grey(self):

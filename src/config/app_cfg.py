@@ -10,7 +10,14 @@ class Theme_wp(Enum):
 class Theme_grey(Enum):
     BG_COLOR = "#606060"
     BT_COLOR = "#CACACA"
-    FG_COLOR = "#CACACA"
+    FG_COLOR = "#CACACA"#C1E5F3
+    TXT_BG_COLOR = "black"
+    TXT_FG_COLOR = "white"
+
+class Theme_dark_green(Enum):
+    BG_COLOR = "#056362"
+    BT_COLOR = "#C1E5F3"
+    FG_COLOR = "#C1E5F3"#C1E5F3
     TXT_BG_COLOR = "black"
     TXT_FG_COLOR = "white"
 
